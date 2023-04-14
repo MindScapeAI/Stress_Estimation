@@ -4,6 +4,7 @@
 ✅ 필요 패키지 및 버전 설정
 
 |package|version|
+|------|---|
 |python|3.9.16|
 |xlwt|1.3.0|
 |shap|0.41.0| 
@@ -28,6 +29,7 @@
 |imbalanced-learn|0.10.1| 
 |imblearn|0.0|
 |xgboost|1.7.5|
+|seaborn|0.12.2|
 
 ✅ 코드 실행 방법
 
