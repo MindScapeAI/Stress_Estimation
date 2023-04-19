@@ -14,13 +14,15 @@
 본 연구는 개인의 특성에 따라 스트레스를 분석할 수 있는 개인별 맞춤형 모델 연구에 기여할 것으로 기대된다.
 
 
-<코드>
+### <코드>
 preprocess_data.py : 라이프로그 데이터 전처리 방법
 StressEstimation_2020users.ipynb : 2020년에 수집한 22명의 피실험자들의 라이프로그 데이터를 활용한 실험.
 StressEstimation_fewusers.ipynb : 임의로 3명의 피실험자들의 데이터를 각각 활용해 개인별로 스트레스를 예측하고 그 결과를 분석한 실험. 
 
-
-
+- 코드 실행 방법
+sleep_survey = '../Data/user_survey_2020.csv'
+sleep_data = '../Data/user_sleep_2020.csv'
+dir2020_path = '../Data/2020_user'
 
 ✅ 필요 패키지 및 버전 설정
 
@@ -51,6 +53,3 @@ StressEstimation_fewusers.ipynb : 임의로 3명의 피실험자들의 데이터
 |imblearn|0.0|
 |xgboost|1.7.5|
 |seaborn|0.12.2|
-
-✅ 코드 실행 방법
-
