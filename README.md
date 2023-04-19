@@ -20,36 +20,16 @@ StressEstimation_2020users.ipynb : 2020년에 수집한 22명의 피실험자들
 StressEstimation_fewusers.ipynb : 임의로 3명의 피실험자들의 데이터를 각각 활용해 개인별로 스트레스를 예측하고 그 결과를 분석한 실험. 
 
 - 코드 실행 방법
-sleep_survey = '../Data/user_survey_2020.csv'
-sleep_data = '../Data/user_sleep_2020.csv'
-dir2020_path = '../Data/2020_user'
+데이터셋: ETRI 라이프로그 데이터셋에서 2020 수면관련 설문결과, 2020 수면 측정 데이터 사용
+https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR
 
-✅ 필요 패키지 및 버전 설정
+해당 실험에서는 두 파일을 Data 폴더에 넣어 사용하였다. 
 
-|package|version|
-|------|---|
-|python|3.9.16|
-|xlwt|1.3.0|
-|shap|0.41.0| 
-|slicer|0.0.7|
-|cloudpickle|2.2.1| 
-|joblib|1.2.0| 
-|llvmlite|0.39.1| 
-|numba|0.56.4| 
-|numpy|1.23.5| 
-|pandas|2.0.0| 
-|pytz|2023.3| 
-|scikit-learn|1.2.2| 
-|scipy|1.10.1| 
-|threadpoolctl|3.1.0| 
-|tqdm|4.65.0| 
-|tzdata|2023.3|
-|et-xmlfile|1.1.0| 
-|openpyxl|3.1.2|
-|matplotlib|3.7.1| 
-|pillow|9.5.0| 
-|pyparsing|3.0.9|
-|imbalanced-learn|0.10.1| 
-|imblearn|0.0|
-|xgboost|1.7.5|
-|seaborn|0.12.2|
+Data
+|_ user_survey_2020.csv
+|_ user_sleep_2020.csv
+
+
+- 필요 패키지 및 버전 설정
+!pip install python3.9.16 xlwt-1.3.0 shap-0.41.0 slicer-0.0.7 cloudpickle-2.2.1 joblib-1.2.0 llvmlite-0.39.1 numba-0.56.4 numpy-1.23.5 pandas-2.0.0 pytz-2023.3 scikit-learn-1.2.2 scipy-1.10.1 shap-0.41.0 slicer-0.0.7 threadpoolctl-3.1.0 tqdm-4.65.0 tzdata-2023.3 et-xmlfile-1.1.0 openpyxl-3.1.2 matplotlib-3.7.1 pillow-9.5.0 pyparsing-3.0.9 imbalanced-learn-0.10.1 imblearn-0.0 xgboost-1.7.5 seaborn-0.12.2
+
