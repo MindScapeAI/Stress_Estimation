@@ -21,8 +21,6 @@ warnings.filterwarnings('ignore')
 # Data files and path
 sleep_survey = '../Data/user_survey_2020.csv'
 sleep_data = '../Data/user_sleep_2020.csv'
-dir2020_path = '../Data/2020_user'
-users2020 = os.listdir(dir2020_path)
 
 # Read data
 survey_df = pd.read_csv(sleep_survey)
