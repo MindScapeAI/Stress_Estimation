@@ -31,6 +31,8 @@ Data
 
 
 - 필요 패키지 및 버전 설정
+
+
 |package|version|
 |------|---|
 |python|3.9.16|
